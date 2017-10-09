@@ -10,8 +10,8 @@ if(INTERACTIVE){
 } else {
   analysis_dir <- getwd()
 }
-data_dir <- file.path("..", "Data")
-fig_dir <- file.path("..", "Figures")
+data_dir <- file.path("..", "data")
+fig_dir <- file.path("..", "figures")
 
 #-------------------------------------------------------------------------------
 # LOAD DATA
